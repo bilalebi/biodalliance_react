@@ -1,6 +1,9 @@
 # Biodalliance Embedded View 
 
 React-based example of [Biodalliance embedded view](https://www.biodalliance.org/embed.html).
+
+<img width="1278" alt="Screenshot 2021-07-16 at 13 09 49" src="https://user-images.githubusercontent.com/62993769/125945285-b9f2f046-fe60-495a-9bc4-cf9e6332bb43.png">
+
 * The main script is in `BiodalliamceView.js`.
 * [useScript](https://usehooks.com/useScript/) is used to make sure `dalliance-compiled.js` is loaded before adding the `new Browser({ ..` script, otherwise you'll get `'Browser' is not defined no-undef` error:
 ```
