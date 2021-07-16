@@ -8,7 +8,7 @@ React-based example of [Biodalliance embedded view](https://www.biodalliance.org
 * [useScript](https://usehooks.com/useScript/) is used to make sure `dalliance-compiled.js` is loaded before adding the `new Browser({ ..` script, otherwise you'll get `'Browser' is not defined no-undef` error:
 ```
 Failed to compile
-src/components/trackhub_view/BiodallianceView.js
+src/BiodallianceView.js
   Line 39:17:  'Browser' is not defined  no-undef
 
 Search for the keywords to learn more about each error.
